@@ -18,15 +18,21 @@ _Just to preserve time for other stuff...;_
 import { isNumber, isString, isArray, isObject, isFunction } from "mo_checkers"
 
 console.log(isString(str)) // true
+
 console.log(isNumber(num)) // true
+
 console.log(isArray(array)) // true
+
 console.log(isObject(obj)) // true
+
 console.log(isFunction(fn)) // true
 
 console.log(isObject(array)) // false
+
 console.log(isObject(fn)) // false
 
 console.log(isObject(null)) // false
+
 console.log(isObject(undefined)) // false
 ...
 
