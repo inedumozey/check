@@ -1,9 +1,9 @@
 ## "mo_checkers.js
 
-_Just to preserve time for other stuff...;_
+_Just to save time for other stuff...;_
 
 ## Description
-"mo_checkers.js is a package that contains functions that check some conditions just to preserve time for other stuff. Most time you do not have to waste your time to code some simple stuff when you can just call a function to do the tasknfor you.
+"mo_checkers.js is a package that contains functions that check some conditions just to preserve time for other stuff.
 
 * _You don't just have the ample time..._
 
@@ -15,25 +15,34 @@ _Just to preserve time for other stuff...;_
 
 ...
 
-import { isNumber, isString, isArray, isObject, isFunction } from "mo_checkers"
+    import { isNumber, isString, isArray, isObject, isFunction } from "mo_checkers"
 
-console.log(isString(str)) // true
+    console.log(isString( "" ))
+    // true
 
-console.log(isNumber(num)) // true
+    console.log(isNumber( 20 ))
+    // true
 
-console.log(isArray(array)) // true
+    console.log(isArray( [] ))
+    // true
 
-console.log(isObject(obj)) // true
+    console.log(isObject( {} ))
+    // true
 
-console.log(isFunction(fn)) // true
+    console.log(isFunction( ()=>{} ))
+    // true
 
-console.log(isObject(array)) // false
+    console.log(isObject( [] ))
+    // false
 
-console.log(isObject(fn)) // false
+    console.log(isObject( ()=>{} ))
+    // false
 
-console.log(isObject(null)) // false
+    console.log(isObject( null ))
+    // false
 
-console.log(isObject(undefined)) // false
+    console.log(isObject( undefined ))
+    // false
 ...
 
 
