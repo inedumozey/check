@@ -1,8 +1,8 @@
 {
   "name": "@mozeyinedu/check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "@mozeyinedu/check is a package that contains functions that check some conditions just to preserve time for other stuff",
-  "main": "build/index.js",
+  "main": "build/bundle.js",
   "scripts": {
     "test": "node index.test.js",
     "prepublish": "npm test",
