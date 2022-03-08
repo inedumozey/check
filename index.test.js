@@ -1,26 +1,26 @@
-import { isArray, isFunction, isNumber, isObject, isString } from "./checkers.js";
+const check = require("./build/bundle.js");
 
-function runTest(){
+function runTest(check){
     console.log("**********************starting test!**********************");
     console.log("")
 
-    if(!isString( "" )){
+    if(!check.isString( "" )){
         throw new Error("internal error parsing string")    
     }
-    else if(!isArray( [] )){
+    else if(!check.isArray( [] )){
         throw new Error("internal error parsing array")
     }
-    else if(!isFunction( ()=>{} )){
+    else if(!check.isFunction( ()=>{} )){
         throw new Error("internal error parsing function")
     }
-    else if(!isNumber( 10 )){
+    else if(!check.isNumber( 10 )){
         throw new Error("internal error parsing number")
     }
-    else if(!isObject( {} )){
+    else if(!check.isObject( {} )){
         throw new Error("internal error parsing object")
     }
 
     console.log("")
     console.log("**********************test ended with no problem**********************");
 }
-runTest()
+runTest(check)

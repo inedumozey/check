@@ -1,11 +1,12 @@
 {
-  "name": "mo_checkers",
-  "version": "1.0.2",
+  "name": "@inedumozey/check",
+  "version": "1.0.0",
   "description": "mo_checkers is a package that contains functions that check some conditions just to preserve time for other stuff",
-  "main": "checkers.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "nodemon index.test.js",
-    "prepublish": "npm test"
+    "test": "node index.test.js",
+    "prepublish": "npm test",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -13,17 +14,27 @@
   },
   "keywords": [
     "checkers",
+    "check",
     "isNumber",
     "isObject",
     "isString",
     "isArray",
+    "mozey",
+    "inedu",
+    "inedumozey",
     "isFunction"
   ],
   "author": "mozey",
-  "type": "module",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/inedumozey/checkers/issues"
   },
-  "homepage": "https://github.com/inedumozey/checkers#readme"
+  "homepage": "https://github.com/inedumozey/checkers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1"
+  }
 }

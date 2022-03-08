@@ -1,4 +1,4 @@
-## "mo_checkers.js
+## @inedumozey/check
 
 _Just to save time for other stuff...;_
 
@@ -9,39 +9,47 @@ _Just to save time for other stuff...;_
 
 ## installation
 
-`npm install "mo_checkers`
+`npm install @inedumozey/check`
 
 ## Usage
 
 ...
 
-    import { isNumber, isString, isArray, isObject, isFunction } from "mo_checkers"
+    import check from "@inedumozey/check";
+...
 
-    console.log(isString( "" ))
+...
+
+    const check = require("@inedumozey/check");
+...
+
+...
+
+    console.log(check.isString( "" ))
     // true
 
-    console.log(isNumber( 20 ))
+    console.log(check.isNumber( 20 ))
     // true
 
-    console.log(isArray( [] ))
+    console.log(check.isArray( [] ))
     // true
 
-    console.log(isObject( {} ))
+    console.log(check.isObject( {} ))
     // true
 
-    console.log(isFunction( ()=>{} ))
+    console.log(check.isFunction( ()=>{} ))
     // true
 
-    console.log(isObject( [] ))
+    console.log(check.isObject( [] ))
     // false
 
-    console.log(isObject( ()=>{} ))
+    console.log(check.isObject( ()=>{} ))
     // false
 
-    console.log(isObject( null ))
+    console.log(check.isObject( null ))
     // false
 
-    console.log(isObject( undefined ))
+    console.log(check.isObject( undefined ))
     // false
 ...
 
