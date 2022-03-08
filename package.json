@@ -1,7 +1,7 @@
 {
   "name": "@mozeyinedu/check",
-  "version": "1.0.0",
-  "description": "mo_checkers is a package that contains functions that check some conditions just to preserve time for other stuff",
+  "version": "1.0.1",
+  "description": "@mozeyinedu/check is a package that contains functions that check some conditions just to preserve time for other stuff",
   "main": "build/index.js",
   "scripts": {
     "test": "node index.test.js",
