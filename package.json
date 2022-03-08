@@ -1,5 +1,5 @@
 {
-  "name": "@inedumozey/check",
+  "name": "@mozeyinedu/check",
   "version": "1.0.0",
   "description": "mo_checkers is a package that contains functions that check some conditions just to preserve time for other stuff",
   "main": "build/index.js",
@@ -21,7 +21,7 @@
     "isArray",
     "mozey",
     "inedu",
-    "inedumozey",
+    "mozeyinedu",
     "isFunction"
   ],
   "author": "mozey",

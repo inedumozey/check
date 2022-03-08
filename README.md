@@ -1,4 +1,4 @@
-## @inedumozey/check
+## @mozeyinedu/check
 
 _Just to save time for other stuff...;_
 
@@ -9,18 +9,18 @@ _Just to save time for other stuff...;_
 
 ## installation
 
-`npm install @inedumozey/check`
+`npm install @mozeyinedu/check`
 
 ## Usage
 
 ...
 
-    import check from "@inedumozey/check";
+    import check from "@mozeyinedu/check";
 ...
 
 ...
 
-    const check = require("@inedumozey/check");
+    const check = require("@mozeyinedu/check");
 ...
 
 ...
