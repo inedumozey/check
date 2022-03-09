@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inedumozey/checkers.git"
+    "url": "git+https://github.com/inedumozey/check.git"
   },
   "keywords": [
     "checkers",
@@ -27,9 +27,9 @@
   "author": "mozey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/inedumozey/checkers/issues"
+    "url": "https://github.com/inedumozey/check/issues"
   },
-  "homepage": "https://github.com/inedumozey/checkers#readme",
+  "homepage": "https://github.com/inedumozey/check#readme",
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",

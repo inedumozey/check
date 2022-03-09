@@ -1,4 +1,4 @@
-## @mozeyinedu/check
+# @mozeyinedu/check
 
 _Just to save time for other stuff...;_
 
