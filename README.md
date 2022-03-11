@@ -3,7 +3,7 @@
 _Just to save time for other stuff...;_
 
 ## Description
-"mo_checkers.js is a package that contains functions that check some conditions just to preserve time for other stuff.
+"check is a package that contains functions that check some conditions just to preserve time for other stuff.
 
 * _You don't just have the ample time..._
 
