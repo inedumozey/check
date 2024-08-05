@@ -9,7 +9,7 @@
     "build:cjs": "tsc --module CommonJs --outDir lib/cjs",
     "publish": "npm publish --access public",
     "push": "git add . && git commit -m 'updated' && git push origin master",
-    "all": "npm run build && npm run push && npm run publish_"
+    "all": "npm run build && npm run push && npm run publish"
   },
 
   "repository": {
