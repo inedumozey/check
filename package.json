@@ -1,0 +1,40 @@
+{
+  "name": "@mozeyinedu/check",
+  "version": "2.0.0",
+  "description": "@mozeyinedu/check is a package that contains functions that check some conditions just to preserve time for other stuff",
+  "main": "lib/cjs/index.js",
+  "scripts": {
+    "build": "rm -rf lib/ && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJs --outDir lib/cjs"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inedumozey/check.git"
+  },
+  "keywords": [
+    "checkers",
+    "check",
+    "isNumber",
+    "isObject",
+    "isString",
+    "isArray",
+    "mozey",
+    "inedu",
+    "mozeyinedu",
+    "isFunction"
+  ],
+  "author": "mozey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inedumozey/check/issues"
+  },
+  "homepage": "https://github.com/inedumozey/check#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  }
+}
